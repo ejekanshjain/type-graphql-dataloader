@@ -6,6 +6,7 @@
     "strictPropertyInitialization": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "skipLibCheck": true,
     "lib": ["ESNext"],
     "target": "ES2020",
     "module": "CommonJS",
@@ -15,5 +16,6 @@
     "baseUrl": "./src/",
     "paths": { "#/*": ["*"] }
   },
-  "include": ["./src", "./examples", "./tests"]
+  "include": ["./src", "./examples", "./tests"],
+  "exclude": ["node_modules"]
 }
